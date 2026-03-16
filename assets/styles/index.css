@@ -71,3 +71,23 @@ footer{
     border-radius: 8px;
     border: solid 2px #012;
 }
+
+h2 {
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
