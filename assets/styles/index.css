@@ -1,6 +1,16 @@
 @charset "UTF-8";
 @import './reset.css';
 
+.container {
+    width: 350px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid green;
+}
+
 .form-container {
     width: 350px;
     margin: 50px auto;
@@ -60,10 +70,6 @@ footer{
     background-color: beige;
     font-weight: 700;
     margin: 20px;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    border: 3px solid green;
 }
 
 .icons{
