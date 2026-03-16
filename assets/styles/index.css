@@ -1,3 +1,15 @@
+@charset "UTF-8";
+@import './reset.css';
+
+.container {
+    width: 350px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: solid 2px #012;
+}
+
 header {  
   height: 150px;
   padding-bottom: 20px;
@@ -51,12 +63,41 @@ footer{
     margin: 20px;
     padding: 20px;
     text-align: center;
-    border-radius: 10px;
-    border: 3px solid green;
 }
+
 .icons{
     background-color: azure;
     padding: 10px;
     border-radius: 10px;
     border: 2px solid rgb(176, 176, 246);
 } 
+
+.container {
+    width: 350px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: solid 2px #012;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
