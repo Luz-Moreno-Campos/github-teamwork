@@ -63,7 +63,7 @@ footer{
     border: 2px solid rgb(176, 176, 246);
 } 
 
-.form-container {
+.container {
     width: 350px;
     margin: 50px auto;
     background-color: white;
