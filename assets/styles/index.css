@@ -1,0 +1,46 @@
+header {  
+  height: 150px;
+  padding-bottom: 20px;
+  background: rgb(239, 174, 174) 
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  position:relative
+}
+
+#buttons{
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  position: relative;
+  right: 150px;
+  top:80px;
+}
+
+a {
+  display: inline-flex;
+  height:20px;
+  border: 2px solid rgb(239, 165, 165);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.7);
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-image: radial-gradient(white, rgb(246, 192, 192));
+  font-family: "Outfit", sans-serif;
+  text-decoration: none;
+  text-shadow:1.5px 1.5px 1.5px rgb(82, 80, 80);
+  color:rgb(194, 47, 47);
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 120%;
+  align-items: center;
+  transition: transform 0.25s ease-in-out;
+}
+
+a:hover {
+  transform: translateY(-5px);
+
+}
+
