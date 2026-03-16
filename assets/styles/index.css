@@ -1,3 +1,15 @@
+@charset "UTF-8";
+@import './reset.css';
+
+.form-container {
+    width: 350px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: solid 2px #012;
+}
+
 header {  
   height: 150px;
   padding-bottom: 20px;
@@ -43,7 +55,6 @@ a:hover {
   transform: translateY(-5px);
 
 }
-
 
 footer{
     background-color: beige;
